@@ -78,6 +78,11 @@ header ul{
 
 /*section1 versione smartphone*/
 
+
+section.section1{
+    padding-bottom: 4rem;
+}
+
 div.card1_big{
     width: 90%;
     background-color: rgb(193, 227, 255);
@@ -117,3 +122,37 @@ div.card1_big>span.button1 {
 div.card1_big>img{
     width: 80%;
 }
+
+div.card1{
+    width: 90%;
+    background-color: rgb(193, 227, 255);
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    border-radius: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem ;
+    margin-bottom: 1.1rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+
+div.card1 p{
+    margin-top: 1.5rem ;
+    line-height: 1.8rem;
+    
+}
+
+div.card1>i{
+    margin-bottom: 1rem;
+    color: rgb(54, 138, 248);
+    font-size: 5rem;
+}
+
+
+div.card1 >span{
+    font-size: 2rem;
+    color: rgb(54, 138, 248);
+}
+
+
