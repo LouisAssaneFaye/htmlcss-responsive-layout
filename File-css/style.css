@@ -12,4 +12,16 @@ header.flex{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header img{
+    height: 60%;
+    margin-left: 2rem;
+}
+
+header i{
+    margin-right: 2rem;
+    font-size: 2rem;
 }
