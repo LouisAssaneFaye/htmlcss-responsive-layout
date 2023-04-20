@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
-/*Header*/
-
-header.flex{
+/*Header versione smartphone e tablet*/
+header{
     background-color: rgb(0, 119, 255);
     height: 90px;
+    width: 100%;
+    color: white;
+}
+
+.container_header.flex{
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
 }
 
 header img{
@@ -21,7 +25,53 @@ header img{
     margin-left: 2rem;
 }
 
-header i{
+i.fa-solid.fa-bars{
     margin-right: 2rem;
     font-size: 2rem;
+    display: inline-block;
 }
+
+header ul{
+    display: none;
+}
+
+/*Header versione deckstop*/
+@media screen and (min-width:1140px){
+    
+    .container_header.flex{
+        margin: 0 auto;
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    i.fa-solid.fa-bars{
+        margin-right: 2rem;
+        font-size: 2rem;
+        display: none;
+    }
+
+    header ul.flex{
+        display:flex;
+        align-items: center;
+        list-style-type: none;
+    }
+     
+    ul.flex *{
+        margin-left: 1rem;
+    }
+
+    ul.flex span{
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        display: inline-block;
+        height: 2rem;
+        width: 6rem;
+        text-align: center;
+        line-height: 2rem ;
+    }
+
+}
+
