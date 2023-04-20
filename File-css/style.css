@@ -75,3 +75,45 @@ header ul{
 
 }
 
+
+/*section1 versione smartphone*/
+
+div.card1_big{
+    width: 90%;
+    background-color: rgb(193, 227, 255);
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-radius: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem ;
+    margin-bottom: 1.1rem;
+}
+
+div.card1_big p{
+    margin-top: 1.5rem ;
+    line-height: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+div.card1_big >span:first-child{
+    font-size: 2rem;
+    color: rgb(54, 138, 248);
+}
+
+div.card1_big>span.button1 {
+    display: inline-block;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-size: 1.2rem;
+    width: 15rem;
+    border-radius: 20px;
+    text-align: center;
+    height: 2.3rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.5rem;
+}
+
+div.card1_big>img{
+    width: 80%;
+}
