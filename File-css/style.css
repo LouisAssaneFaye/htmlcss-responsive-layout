@@ -254,11 +254,11 @@ div.card1 >span{
         margin-top: 1rem;
     }
 
-    div.part1{
+    .card1_big div.part1{
         width: 66%;
     }
 
-    div.part2{
+    .card1_big div.part2{
         width: 33%;
     }
 }
