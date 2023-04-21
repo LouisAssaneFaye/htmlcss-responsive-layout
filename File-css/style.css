@@ -40,7 +40,7 @@ header ul{
     
     .container_header.flex{
         margin: 0 auto;
-        width: 65%;
+        width: 80%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -101,12 +101,12 @@ div.card1_big p{
     margin-bottom: 1.5rem;
 }
 
-div.card1_big >span:first-child{
+div.card1_big span:first-child{
     font-size: 2rem;
     color: rgb(54, 138, 248);
 }
 
-div.card1_big>span.button1 {
+div.card1_big span.button1 {
     display: inline-block;
     background-color: rgb(0, 119, 255);
     color: white;
@@ -119,13 +119,13 @@ div.card1_big>span.button1 {
     margin-bottom: 1.5rem;
 }
 
-div.card1_big>img{
+div.card1_big img{
     width: 80%;
     margin-left: 27px;
 }
 
 div.card1{
-    width: 90%;
+    width: 100%;
     background-color: rgb(193, 227, 255);
     margin: 0 auto;
     padding-top: 1.5rem;
@@ -157,8 +157,109 @@ div.card1 >span{
 }
 
 /*section1 versione tablet*/
-@media screen and (min-witdh:768px){
-    
+
+@media screen and (min-width:768px){
+    .container1{
+        width: 95%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    div.card1_big{
+        width: 65%;
+        background-color: rgb(193, 227, 255);
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-radius: 15px;
+        padding-left: 2rem;
+        padding-right: 2rem ;
+        margin-bottom: 1.1rem;
+    }
+
+    div.card1{
+        width: 31.5%;
+        background-color: rgb(193, 227, 255);
+        padding-top: 1.5rem;
+        border-radius: 15px;
+        padding-left: 2rem;
+        padding-right: 2rem ;
+        margin-bottom: 1.1rem;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+
+    .container1 div:nth-child(2){
+        margin-top: 3rem;
+    }
+
+    div.card1_big img{
+        width: 72%;
+        margin-left: -25px;
+    }
 }
 
+/*section1 versione desktop*/
+
+@media screen and (min-width:1140px){
+    .container1{
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    div.card1_big{
+        width: 65%;
+        background-color: rgb(193, 227, 255);
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        border-radius: 15px;
+        padding-left: 2rem;
+        padding-right: 2rem ;
+        margin-bottom: 1.1rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    div.card1{
+        width: 31.5%;
+        background-color: rgb(193, 227, 255);
+        padding-top: 1.5rem;
+        border-radius: 15px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem ;
+        margin-bottom: 1.1rem;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+    
+    
+    div.card1_big span.button1 {
+        margin-bottom: 1rem;
+    }
+
+
+
+
+    div.card1_big img{
+        width: 121%;
+        margin-left: 0px;
+        margin-top: 1rem;
+    }
+
+    div.part1{
+        width: 66%;
+    }
+
+    div.part2{
+        width: 33%;
+    }
+}
 
