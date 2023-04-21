@@ -124,7 +124,7 @@ div.card1_big img{
     margin-left: 27px;
 }
 
-div.card1{
+.section1 div.card1{
     width: 100%;
     background-color: rgb(193, 227, 255);
     margin: 0 auto;
@@ -138,20 +138,20 @@ div.card1{
 }
 
 
-div.card1 p{
+.section1 div.card1 p{
     margin-top: 1.5rem ;
     line-height: 1.8rem;
     
 }
 
-div.card1>i{
+.section1 div.card1>i{
     margin-bottom: 1rem;
     color: rgb(54, 138, 248);
     font-size: 5rem;
 }
 
 
-div.card1 >span{
+.section1 div.card1 >span{
     font-size: 2rem;
     color: rgb(54, 138, 248);
 }
@@ -180,7 +180,7 @@ div.card1 >span{
         margin-bottom: 1.1rem;
     }
 
-    div.card1{
+    .container1 div.card1{
         width: 31.5%;
         background-color: rgb(193, 227, 255);
         padding-top: 1.5rem;
@@ -228,7 +228,7 @@ div.card1 >span{
         justify-content: flex-start;
     }
 
-    div.card1{
+    .section1 div.card1{
         width: 31.5%;
         background-color: rgb(193, 227, 255);
         padding-top: 1.5rem;
@@ -263,3 +263,185 @@ div.card1 >span{
     }
 }
 
+/*Section2 versione smartphone*/
+.container2{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2{
+    background-color: rgb(136, 136, 250);
+}
+
+.section2 div.card1{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.section2 .part1{
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    width: 100%;
+}
+
+.section2 .part1 img{
+    width: 100%;
+}
+
+.section2 .part2 h3{
+    font-size: 2.7rem;
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.section2 .part2 p{
+    line-height: 1.8rem;
+    color: white;
+}
+
+.section2 .card2{
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.section2 .card2 img{
+    width: 100%;
+}
+
+.section2 .card2 h4{
+    font-size: 2rem;
+    text-align: center;
+    margin-top:1rem ;
+    margin-bottom: 1rem;
+}
+
+.section2 .card2 p{
+    line-height: 1.8rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+div.card2 span.button_violet{
+    display: inline-block;
+    height:4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: rgb(136, 136, 250);
+    color: black;
+    margin-bottom: 2rem;
+    margin-left: calc(50% - 2rem);
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.3rem;
+}
+
+/*Section2 versione tablet*/
+@media screen and (min-width:768px){
+    .container2{
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section2{
+        background-color: rgb(136, 136, 250);
+    }
+    
+    .section2 div.card1{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .section2 .part1{
+        margin-top: 6rem;
+        margin-bottom: 8rem;
+        width: 100%;
+    }
+    
+    .section2 .part1 img{
+        width: 100%;
+    }
+    
+    .section2 .part2 h3{
+        font-size: 2.7rem;
+        color: white;
+        margin-bottom: 4rem;
+    }
+    
+    .section2 .part2 p{
+        line-height: 1.8rem;
+        color: white;
+    }
+    
+    .section2 .card2{
+        width: 100%;
+        background-color: white;
+        border-radius: 25px;
+    
+    }
+    
+    .section2 .card2 img{
+        width: 100%;
+    }
+    
+    .section2 .card2 h4{
+        font-size: 2rem;
+        text-align: center;
+        margin-top:1rem ;
+        margin-bottom: 1rem;
+    }
+    
+    .section2 .card2 p{
+        line-height: 1.8rem;
+        font-style: italic;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    div.card2 span.button_violet{
+        display: inline-block;
+        height:4rem;
+        width: 4rem;
+        border-radius: 50%;
+        background-color: rgb(136, 136, 250);
+        color: black;
+        margin-bottom: 2rem;
+        margin-left: calc(50% - 2rem);
+        text-align: center;
+        line-height: 4rem;
+        font-size: 1.3rem;
+    }
+    
+}
+
+/*Section2 versione descktop*/
+@media screen and (min-width:1140px){
+    
+    .container2{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+    }
+
+    .section2 div.card1{
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+
+    .section2 div.card2{
+        width: 45%;
+        margin-bottom: 3rem;
+        margin-top: 14rem;
+    }
+}
