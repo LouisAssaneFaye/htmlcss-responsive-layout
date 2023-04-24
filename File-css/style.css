@@ -479,7 +479,7 @@ div.card2 span.button_violet{
 .container3>p{
     line-height: 1.8rem;
     color: black;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     text-align: center;
     margin-left:2rem ;
@@ -495,7 +495,7 @@ div.card2 span.button_violet{
 
 .container3>h2{
     font-size: 2.7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: rgb(136, 136, 250);
     margin-top: 2rem;
     text-align: center;
@@ -506,4 +506,39 @@ div.card2 span.button_violet{
 .container3>span{
     padding-top: 3rem;
     margin: 0 auto;
+}
+
+/*Section3 versione tablet*/
+
+@media screen and (min-width:768px){
+    
+    .section3 div.card1,.section3 div.card2,.section3 div.card3{
+        width: 100%;
+        background-color: rgb(136, 136, 250);
+        margin: 0 auto;
+        padding-top: 1.5rem;
+        border-radius: 20px;
+        padding-left: 2rem;
+        padding-right: 2rem ;
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        text-align: initial;
+    }
+
+    .section3 div.part2 {
+        padding-left: 1rem;
+    }
+}
+
+/*Section3 versione desktop*/
+
+@media screen and (min-width:1140px){
+    .container3{
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+    }
 }
