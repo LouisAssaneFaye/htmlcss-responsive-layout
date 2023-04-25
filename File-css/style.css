@@ -768,3 +768,51 @@ div.card2 span.button_violet{
         width: 42%;
     }
 }
+
+/*Section5 versione desktop*/
+
+.container6{
+    width: 66%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+.section6{
+    background-color: rgb(136, 136, 250);
+}
+
+.container6>*{
+    margin-bottom: 1.7rem;
+}
+
+.container6 h2{
+    font-size: 2rem;
+}
+
+.container6 span.free{
+    font-size: 4rem;
+    color: rgb(218, 167, 73);
+}
+
+.container6 p{
+    line-height: 1.8rem;
+}
+
+.container6>span.button{
+    color: rgb(136, 136, 250);
+    background-color: white;
+    line-height:2.7rem ;
+    text-align: center;
+    display: inline-block;
+    width: 13rem;
+    height: 2.7rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
