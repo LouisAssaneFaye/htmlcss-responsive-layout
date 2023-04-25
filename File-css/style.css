@@ -848,3 +848,49 @@ div.card2 span.button_violet{
         text-align: center;
     }
 }
+
+/*footer versione smartphone*/
+
+footer{
+    background-color: rgb(65, 61, 61);
+    color: white;
+}
+
+.container-footer{
+    width: 76%;
+    padding-top:3rem ;
+    padding-bottom:3rem ;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer span{
+    color: rgb(136, 136, 250);
+}
+
+footer p:first-child{
+    margin-bottom: 5rem;
+}
+
+/*footer versione tablet*/
+@media screen and (min-width:768px){
+    .container-footer{
+        width: 51%;
+        padding-top:3rem ;
+        padding-bottom:3rem ;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+/*footer versione tablet*/
+@media screen and (min-width:1140px){
+    
+    .container-footer{
+        width: 35%;
+        padding-top:3rem ;
+        padding-bottom:3rem ;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
