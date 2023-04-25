@@ -769,7 +769,7 @@ div.card2 span.button_violet{
     }
 }
 
-/*Section5 versione desktop*/
+/*Section6 versione smartphone*/
 
 .container6{
     width: 66%;
@@ -815,4 +815,36 @@ div.card2 span.button_violet{
     border-radius: 20px;
     margin: 0 auto;
     margin-bottom: 1.5rem;
+}
+
+/*Section6 versione tablet*/
+@media screen and (min-width:768px){
+    .container6{
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+    }
+}
+
+
+/*Section6 versione desktop*/
+
+@media screen and (min-width:1140px){
+    .container6{
+        width: 41%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        text-align: center;
+    }
 }
