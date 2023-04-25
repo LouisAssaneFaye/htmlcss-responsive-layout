@@ -244,9 +244,6 @@ div.card1_big img{
         margin-bottom: 1rem;
     }
 
-
-
-
     div.card1_big img{
         width: 121%;
         margin-left: 0px;
@@ -677,5 +674,97 @@ div.card2 span.button_violet{
         text-align: center;
         margin-left: 8rem;
         margin-right: 8rem;
+    }
+}
+
+/*Section5 versione smartphone*/
+
+.container5{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+    padding-top: 5rem;
+}
+
+.container5 div.part1>span{
+    color: rgb(136, 136, 250);
+    font-size: 4rem;
+}
+
+.container5 div.part1>p{
+    margin-top: 4rem;
+    line-height: 1.8rem;
+}
+
+.container5 div.part2{
+    padding-top: 4rem;
+}
+
+.container5 div.part2>img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.container5 div.part2>p{
+    color: rgb(136, 136, 250);
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.container5 div.part2>span{
+    background-color: rgb(136, 136, 250);
+    color: white;
+    height: 2rem;
+    width: 12rem;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+/*Section5 versione tablet*/
+@media screen and (min-width:768px){
+    
+    .container5>.card1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container5>.card1 .part1{
+        width: 50%;
+    }
+
+    .container5>.card1 .part2{
+        width: 50%;
+    }
+
+    .container5 div.part2 {
+        padding-top: 1rem;
+        padding-left: 3rem;
+        padding-right: 1rem;
+    }   
+
+}
+
+/*Section5 versione desktop*/
+@media screen and (min-width:1140px){
+    .container5{
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        padding-top: 5rem;
+    }
+
+    .container5>.card1 .part1{
+        width: 73%;
+    }
+
+    .container5>.card1 .part2{
+        width: 42%;
     }
 }
